@@ -4,7 +4,7 @@
 
 Zig's performance, explicit memory management, and seamless C/C++ interoperability make it an exceptionally powerful tool for AI inference, tensor operations, and building fast, resource-efficient LLM tooling. This list tracks the growing ecosystem of Zig-based AI projects — from production-grade inference stacks to educational implementations built from scratch.
 
-Contributions are welcome! Please read the [contribution guidelines](#contributing) first.
+Contributions are welcome!
 
 ---
 
