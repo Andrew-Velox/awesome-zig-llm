@@ -26,13 +26,15 @@ Contributions are welcome!
 
 *Native or highly optimized inference stacks written in or targeting Zig.*
 
-* ![Stars](https://img.shields.io/github/stars/zml/zml?color=orange) **[ZML](https://github.com/zml/zml)** — High-performance, production-ready AI inference stack built in Zig. Designed for speed, safety, and easy deployment of LLMs across hardware targets.
-* ![Stars](https://img.shields.io/github/stars/ApoorvaJ/zig-ml?color=orange) **[zig-ml](https://github.com/ApoorvaJ/zig-ml)** — LLM inference written from scratch in pure Zig, without any high-level ML libraries. Built to understand AI inference internals and optimize workloads for modest hardware. Heavily inspired by `llama2.c`.
 * ![Stars](https://img.shields.io/github/stars/cgbur/llama2.zig?color=orange) **[LLaMa2.zig (cgbur)](https://github.com/cgbur/llama2.zig)** — Inference for LLaMA 2 in a single file of pure Zig. Minimal and easy to read.
 * ![Stars](https://img.shields.io/github/stars/clebert/llama2.zig?color=orange) **[LLaMa2.zig (clebert)](https://github.com/clebert/llama2.zig)** — Another pure-Zig LLaMA 2 inference implementation, focused on clarity and correctness.
+* ![Stars](https://img.shields.io/github/stars/Saimirbaci/llm.zig?color=orange) **[llm.zig](https://github.com/Saimirbaci/llm.zig)** — A clean, simple, and fast LLM implementation in Zig, starting with GPT-2. A notable port of Andrej Karpathy's `llm.c`.
+* ![Stars](https://img.shields.io/github/stars/ApoorvaJ/zig-ml?color=orange) **[zig-ml](https://github.com/ApoorvaJ/zig-ml)** — LLM inference written from scratch in pure Zig, without any high-level ML libraries. Built to understand AI inference internals and optimize workloads for modest hardware. Heavily inspired by `llama2.c`.
+* ![Stars](https://img.shields.io/github/stars/Alex188dot/ziggy-llm?color=orange) **[ziggy-llm](https://github.com/Alex188dot/ziggy-llm)** — Zig-native GGUF inference engine optimized for Apple Silicon with Metal support and a fast CLI runner.
 * ![Stars](https://img.shields.io/github/stars/CogitatorTech/zigformer?color=orange) **[ZigFormer](https://github.com/CogitatorTech/zigformer)** — A transformer-based LLM implemented entirely in pure Zig. Explores how transformer architectures can be expressed using Zig's comptime and type system.
 * ![Stars](https://img.shields.io/github/stars/EugenHotaj/zig_gpt2?color=orange) **[zig_gpt2](https://github.com/EugenHotaj/zig_gpt2)** — A GPT-2 neural network inference engine written in Zig. Capable of running [NanoGPT](https://github.com/karpathy/nanoGPT) models.
-* ![Stars](https://img.shields.io/github/stars/Saimirbaci/llm.zig?color=orange) **[llm.zig](https://github.com/Saimirbaci/llm.zig)** — A clean, simple, and fast LLM implementation in Zig, starting with GPT-2. A notable port of Andrej Karpathy's `llm.c`.
+* ![Stars](https://img.shields.io/github/stars/zolotukhin/zinc?color=orange) **[ZINC](https://github.com/zolotukhin/zinc)** — Zig INferenCe Engine for local LLM inference on AMD GPUs and Apple Silicon via Vulkan/Metal, with an OpenAI-compatible API and built-in chat UI.
+* ![Stars](https://img.shields.io/github/stars/zml/zml?color=orange) **[ZML](https://github.com/zml/zml)** — High-performance, production-ready AI inference stack built in Zig. Designed for speed, safety, and easy deployment of LLMs across hardware targets.
 
 ---
 
@@ -51,10 +53,11 @@ Contributions are welcome!
 
 *Zig bindings and wrappers for popular C/C++ machine learning frameworks and APIs.*
 
+* ![Stars](https://img.shields.io/github/stars/renerocksai/gpt4all.zig?color=orange) **[gpt4all.zig](https://github.com/renerocksai/gpt4all.zig)** — Zig build and terminal-based chat client for GPT4All models (~800k GPT-3.5-Turbo generations based on LLaMA). Features automatic model downloading and serves as a starting point for Zig apps with built-in LLM capabilities.
 * ![Stars](https://img.shields.io/github/stars/Deins/llama.cpp.zig?color=orange) **[llama.cpp.zig](https://github.com/Deins/llama.cpp.zig)** — Full `llama.cpp` bindings and build utilities for Zig, targeting Zig 0.14.x. Provides ergonomic Zig-style wrappers over `llama.h`, including camelCase naming, prefix removal, and struct-grouped functions. Supports building `llama.cpp` directly via `zig build`.
+* ![Stars](https://img.shields.io/github/stars/jaco-bro/MLX.zig?color=orange) **[MLX.zig](https://github.com/jaco-bro/MLX.zig)** — Zig bindings for Apple's MLX framework, with example LLM and Whisper runners for Apple Silicon.
 * ![Stars](https://img.shields.io/github/stars/dravenk/ollama-zig?color=orange) **[ollama-zig](https://github.com/dravenk/ollama-zig)** — Zig client library for the Ollama API. Run and interact with locally-served LLMs via Ollama from pure Zig.
 * ![Stars](https://img.shields.io/github/stars/recursiveGecko/onnxruntime.zig?color=orange) **[onnxruntime.zig](https://github.com/recursiveGecko/onnxruntime.zig)** — Experimental Zig wrapper for the ONNX Runtime, with working examples including Silero VAD (voice activity detection) and NSNet2 (noise suppression).
-* ![Stars](https://img.shields.io/github/stars/renerocksai/gpt4all.zig?color=orange) **[gpt4all.zig](https://github.com/renerocksai/gpt4all.zig)** — Zig build and terminal-based chat client for GPT4All models (~800k GPT-3.5-Turbo generations based on LLaMA). Features automatic model downloading and serves as a starting point for Zig apps with built-in LLM capabilities.
 * ![Stars](https://img.shields.io/github/stars/mattfreire/zig-llm?color=orange) **[zig-llm](https://github.com/mattfreire/zig-llm)** — A Zig wrapper around cloud LLM APIs (OpenAI and compatible). Provides simple, idiomatic Zig interfaces for making LLM API requests.
 
 ---
@@ -100,8 +103,12 @@ Contributions are welcome!
 
 *CLI tools, terminal clients, agents, and deployment utilities for LLMs built with Zig.*
 
+* ![Stars](https://img.shields.io/github/stars/krillclaw/KrillClaw?color=orange) **[KrillClaw](https://github.com/krillclaw/KrillClaw)** — A tiny Zig-based AI agent runtime for edge and embedded devices with multi-provider LLM support, tool execution, and MCP integration.
 * ![Stars](https://img.shields.io/github/stars/nullclaw/nullclaw?color=orange) **[nullclaw](https://github.com/nullclaw/nullclaw)** — Self-described as the fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig.
+* ![Stars](https://img.shields.io/github/stars/no1msd/seance?color=orange) **[Séance](https://github.com/no1msd/seance)** — A Zig-built Linux terminal multiplexer that tracks AI coding agents and exposes a scripting API for automation.
+* ![Stars](https://img.shields.io/github/stars/neolite/zaica?color=orange) **[zaica](https://github.com/neolite/zaica)** — A Zig AI coding assistant CLI with multi-provider support, tool calling, and an interactive REPL.
 * ![Stars](https://img.shields.io/github/stars/mattfreire/zig-llm?color=orange) **[zig-llm (OpenAI client)](https://github.com/mattfreire/zig-llm)** — A dependency-free Zig client for OpenAI-compatible inference servers. Uses `std.http` and `std.json` for a minimal, arena-allocated HTTP client that fits in one `.zig` file.
+* ![Stars](https://img.shields.io/github/stars/codejunkie99/ztk?color=orange) **[ztk](https://github.com/codejunkie99/ztk)** — A Zig CLI proxy that compresses shell output to cut LLM token usage while preserving errors and key details.
 
 ---
 
