@@ -26,7 +26,7 @@ Contributions are welcome!
 
 *Native or highly optimized inference stacks written in or targeting Zig.*
 
-* ![Stars](https://img.shields.io/github/stars/myzonerocks/gosslens?color=orange) **[gosslens](https://github.com/myzonerocks/gosslens)** — A from-scratch ONNX inference engine in pure Zig with quantization, control flow, and allocation-free inference, inside a real-time vision engine that connects models to live cameras, video and screens.
+* ![Stars](https://img.shields.io/github/stars/myzonerocks/gosslens?color=orange) **[gosslens](https://github.com/myzonerocks/gosslens)** — A from-scratch ONNX inference engine in pure Zig, inside a vision engine that runs models on live cameras, video and screens.
 * ![Stars](https://img.shields.io/github/stars/cgbur/llama2.zig?color=orange) **[LLaMa2.zig (cgbur)](https://github.com/cgbur/llama2.zig)** — Inference for LLaMA 2 in a single file of pure Zig. Minimal and easy to read.
 * ![Stars](https://img.shields.io/github/stars/clebert/llama2.zig?color=orange) **[LLaMa2.zig (clebert)](https://github.com/clebert/llama2.zig)** — Another pure-Zig LLaMA 2 inference implementation, focused on clarity and correctness.
 * ![Stars](https://img.shields.io/github/stars/Saimirbaci/llm.zig?color=orange) **[llm.zig](https://github.com/Saimirbaci/llm.zig)** — A clean, simple, and fast LLM implementation in Zig, starting with GPT-2. A notable port of Andrej Karpathy's `llm.c`.
