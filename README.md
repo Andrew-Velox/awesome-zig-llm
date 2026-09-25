@@ -26,9 +26,9 @@ Contributions are welcome!
 
 *Native or highly optimized inference stacks written in or targeting Zig.*
 
-* ![Stars](https://img.shields.io/github/stars/myzonerocks/gosslens?color=orange) **[gosslens](https://github.com/myzonerocks/gosslens)** — A from-scratch ONNX inference engine in pure Zig, inside a vision engine that runs models on live cameras, video and screens.
 * ![Stars](https://img.shields.io/github/stars/cgbur/llama2.zig?color=orange) **[LLaMa2.zig (cgbur)](https://github.com/cgbur/llama2.zig)** — Inference for LLaMA 2 in a single file of pure Zig. Minimal and easy to read.
 * ![Stars](https://img.shields.io/github/stars/clebert/llama2.zig?color=orange) **[LLaMa2.zig (clebert)](https://github.com/clebert/llama2.zig)** — Another pure-Zig LLaMA 2 inference implementation, focused on clarity and correctness.
+* ![Stars](https://img.shields.io/github/stars/myzonerocks/gosslens?color=orange) **[gosslens](https://github.com/myzonerocks/gosslens)** — A from-scratch ONNX inference engine in pure Zig, inside a vision engine that runs models on live cameras, video and screens.
 * ![Stars](https://img.shields.io/github/stars/Saimirbaci/llm.zig?color=orange) **[llm.zig](https://github.com/Saimirbaci/llm.zig)** — A clean, simple, and fast LLM implementation in Zig, starting with GPT-2. A notable port of Andrej Karpathy's `llm.c`.
 * ![Stars](https://img.shields.io/github/stars/ddalcu/mlx-serve?color=orange) **[mlx-serve](https://github.com/ddalcu/mlx-serve)** — Native LLM inference server for Apple Silicon. OpenAI + Anthropic API compatible. No Python. Includes MLX Core macOS app with chat, agent mode, and tool calling.
 * ![Stars](https://img.shields.io/github/stars/ApoorvaJ/zig-ml?color=orange) **[zig-ml](https://github.com/ApoorvaJ/zig-ml)** — LLM inference written from scratch in pure Zig, without any high-level ML libraries. Built to understand AI inference internals and optimize workloads for modest hardware. Heavily inspired by `llama2.c`.
